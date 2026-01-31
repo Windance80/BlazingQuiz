@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BlazingQuiz.Api/BlazingQuiz.Api.csproj" />
+  <Project Path="BlazingQuiz.Mobile/BlazingQuiz.Mobile.csproj" />
+  <Project Path="BlazingQuiz.Shared.Components/BlazingQuiz.Shared.Components.csproj" />
+  <Project Path="BlazingQuiz.Shared/BlazingQuiz.Shared.csproj" />
+  <Project Path="BlazingQuiz.Web/BlazingQuiz.Web.csproj" />
+</Solution>
