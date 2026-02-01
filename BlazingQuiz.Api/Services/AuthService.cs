@@ -32,7 +32,7 @@ public class AuthService
         if (user == null)
         {
             // invalid username
-            return new AuthResponseDto(string.Empty, "Invalid username");
+            return new AuthResponseDto(default, "Invalid username");
         }
 
         var passwordResult = passwordHasher.VerifyHashedPassword(user, user.PasswordHash, dto.Password);
@@ -40,7 +40,7 @@ public class AuthService
         if (passwordResult == PasswordVerificationResult.Failed)
         {
             // incorrect password
-            return new AuthResponseDto(string.Empty, "Incorrect Password");
+            return new AuthResponseDto(default, "Incorrect Password");
         }
 
         // generate jwt token

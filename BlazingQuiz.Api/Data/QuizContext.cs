@@ -33,7 +33,7 @@ public class QuizContext : DbContext
         var adminUser = new User
         {
             Id = 1,
-            Name = "admin",
+            Name = "sandy",
             Email = "admin@gmail.com",
             Phone = "1234567890",
             Role = nameof(UserRole.Admin),
