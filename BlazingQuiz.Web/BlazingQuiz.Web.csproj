@@ -17,4 +17,8 @@
     <ProjectReference Include="..\BlazingQuiz.Shared\BlazingQuiz.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Auth\" />
+  </ItemGroup>
+
 </Project>
