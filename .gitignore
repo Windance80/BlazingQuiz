@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 BlazingQuiz.Api/BlazingQuiz.db-shm
 BlazingQuiz.Api/BlazingQuiz.db-wal
+BlazingQuiz.Api/BlazingQuiz.db
