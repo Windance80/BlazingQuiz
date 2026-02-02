@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+BlazingQuiz.Api/BlazingQuiz.db-shm
+BlazingQuiz.Api/BlazingQuiz.db-wal
